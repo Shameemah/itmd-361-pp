@@ -28,8 +28,8 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 
 /* ==== LAYOUT STYLES ==== */
 section {
-display: block;
-float: right;
+display: inline;
+float:  right;
 height: 33.3vw;
 width: 33.3vw;
 }
@@ -42,7 +42,6 @@ width: 33.3vw;
 #two,
 #one {
   
-   
 }
 
 #three {
@@ -58,8 +57,26 @@ width: 33.3vw;
 }
 
 @media screen and (min-width: 600px) {
+  
+  section {
+    height: 50vw;
+    width: 50vw;
+  }
 
-}
+  #three {
+    width: 100vw;
+    position: fixed;
+    margin-top: 50vw;
+  }
+
+  #two {
+    position: relative;
+    float: right;
+  }
+  
+  #one {
+    position: fixed;
+  }
 
 @media screen and (min-width: 800px) {
 
