@@ -27,14 +27,22 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 
 
 /* ==== LAYOUT STYLES ==== */
-#content {
+section {
+display: block;
+float: right;
+height: 33.3vw;
+width: 33.3vw;
+}
 
+#content {
+  
 }
 
 #three,
 #two,
 #one {
-
+  
+   
 }
 
 #three {
