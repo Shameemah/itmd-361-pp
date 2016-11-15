@@ -6,7 +6,7 @@
 var x = 5;
 
 function double(num) {
-  x = num * 2;
+  var x = num * 2;
   return x;
 }
 
@@ -19,3 +19,12 @@ console.log('The value of x is:', x, 'It should be 5.');
   variables nor the double function can be accessed via the
   `window` global object, like `window.x`).
 */
+
+var timesTwo = function double(num) {
+  var x = num * 2;
+  return x;
+}
+
+
+
+
